@@ -1,3 +1,3 @@
 # Status
 
-Branch `develop`: MVP funcional inicial implementado e pronto para validação em preview antes de promoção para `main`.
+`main`: MVP funcional com autenticação e sincronização em nuvem via Supabase integrado. Deploy de produção acionado pela conexão GitHub → Vercel após correção do repositório conectado.
