@@ -1,4 +1,5 @@
 import './globals.css'
+import GlobalLaunchers from './global-launchers'
 
 export const metadata = {
   title: 'GTD Acadêmico — Gustavo Rodrigues',
@@ -6,5 +7,5 @@ export const metadata = {
 }
 
 export default function RootLayout({ children }) {
-  return <html lang="pt-BR"><body>{children}</body></html>
+  return <html lang="pt-BR"><body>{children}<GlobalLaunchers/></body></html>
 }
